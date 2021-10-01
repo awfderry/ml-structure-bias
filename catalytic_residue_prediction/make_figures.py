@@ -11,7 +11,7 @@ import math
 
 XRAY_PATH = os.path.join("evaluation", "train_xray")
 MIXED_PATH = os.path.join("evaluation", "train_mixed")
-ENTRIES_PATH = "../entries.idx"
+ENTRIES_PATH = "../data/entries.idx"
 FIGURE_DIR = "figures"
 CPD_EMA_PDB_PATH = None # fill in with the location of the text files with pdb ids for CPD and EMA splits
 CAT_PDB_PATH = os.path.join("data","splits")
