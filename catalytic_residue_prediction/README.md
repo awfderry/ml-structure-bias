@@ -1,7 +1,7 @@
 # Catalytic Residue Prediction Task
 
 ## Workflow
-1. `conda crate --name cat_env --file cat_env.txt` to create the conda environment
+1. `conda create --name cat_env --file cat_env.txt` to create the conda environment
 2. `conda activate cat_env` to activate the conda environment
 3. `./download_data.sh` to download necessary data from Zenodo
 4. `./train_xray.sh` and `./train_mixed.sh` to train one model on only X-ray crystallography data, and another model on all three types of data, respectively
